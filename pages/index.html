@@ -18,11 +18,13 @@
             <div class="nav">
 
                 <!-- List with navigation (radio don't works cause site is a landing page) -->
-                <ul>
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="menu-icon">&#9776;</label>
+                <ul id="main-nav">
                     <input type="radio" name="header__navigation" id="Home" checked>
-                    <label for="Home">Home</label>
+                    <label for="Home"><a href="index.html">Home</a></label>
                     <input type="radio" name="header__navigation" id="About">
-                    <label for="About">About</label>
+                    <label for="About"><a href="about.html">About</a></label>
                     <input type="radio" name="header__navigation" id="How_it_works">
                     <label for="How_it_works">How it works</label>
                     <input type="radio" name="header__navigation" id="Services">
@@ -48,6 +50,8 @@
             </div>
         </div>
     </section>
+
+    <!-- Section with description -->
 
     <section class="chapter">
         <div class="mainInfo-container">
@@ -136,6 +140,107 @@
             </div>
         </div>
     </section>
+
+    <!-- Section with price -->
+    <section class="price-description chapter">
+        <div class="price-description__content">
+            <div class="price-text">
+                <div class="text-description">
+                    <h1>Pricing</h1>
+                    <p>Take a look at some of our recent projects to see how we've helped businesses like yours succeed online.</p>
+                </div>
+                <div class="meeting-block">
+                    <h2>Let’s Schedule a Meeting</h2>
+                    <button>Schedule Meeting</button>
+                </div>
+            </div>
+            <div class="price-block">
+                <div class="price-block__text">
+                    <h2>Unlimited Services</h2>
+                    <p>Take a look at some of our recent projects to see how we've helped businesses like yours succeed online.</p>
+                </div>
+                <div class="price-block__benefits grid-container">
+                    <div class="price-block__grid-item">
+                        <img src="/media/photos/check-icon.png" alt="check-icon">
+                        <p>Unlimited requests</p>
+                    </div>
+                    <div class="price-block__grid-item">
+                        <img src="/media/photos/check-icon.png" alt="check-icon">
+                        <p>Unlimited requests</p>
+                    </div>
+                    <div class="price-block__grid-item">
+                        <img src="/media/photos/check-icon.png" alt="check-icon">
+                        <p>Unlimited requests</p>
+                    </div>
+                    <div class="price-block__grid-item">
+                        <img src="/media/photos/check-icon.png" alt="check-icon">
+                        <p>Unlimited requests</p>
+                    </div>
+                    <div class="price-block__grid-item">
+                        <img src="/media/photos/check-icon.png" alt="check-icon">
+                        <p>Unlimited requests</p>
+                    </div>
+                    <div class="price-block__grid-item">
+                        <img src="/media/photos/check-icon.png" alt="check-icon">
+                        <p>Unlimited requests</p>
+                    </div>
+                </div>
+                <div class="price-block__more">
+                    <div class="more__text-block">
+                        <h1>$3,250</h1>
+                        <p>/mo</p>
+                    </div>
+                    <div class="more__icon">
+                        <img src="/media/photos/arrow-left-icon.png" alt="arrow-left-icon">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+     <footer>
+        <div class="gradient-footer">
+            <div class="gradient-block" id="red-gr"></div>
+            <div class="gradient-block" id="red-gr"></div>
+            <div class="gradient-block" id="violet-gr"></div>
+            <div class="gradient-block" id="violet-gr"></div>
+            <div class="gradient-block" id="blue-gr"></div>
+            <div class="gradient-block" id="blue-gr"></div>
+        </div>
+        <div class="footer__block">
+            <div class="footer__block-text">
+                <div class="footer__logo logo">
+                    <img src="/media/photos/Subtract.png" alt="logo">
+                    <p>FasterUI</p>
+                </div>
+                <div class="footer__text-description">
+                    <p>Ready to elevate your online presence? Contact us today to discuss your project and discover how we can bring your vision to life.</p>
+                </div>
+                <div class="footer__another_text">
+                    <img src="/media/photos/heart-icon.png" alt="heart-icon">
+                    <p>Made with love powered by inkyy.com</p>
+                </div>
+            </div>
+            <div class="footer__block-nav">
+                <div class="footer__navigation">
+                    <input type="radio" name="footer-nav" id="f-Home" checked>
+                    <label for="f-Home"><a href="/pages/index.html">Home</a></label>
+                    <input type="radio" name="footer-nav" id="f-About">
+                    <label for="f-About"><a href="/pages/about.html">About</a></label>
+                    <input type="radio" name="footer-nav" id="f-HowItWorks">
+                    <label for="f-HowItWorks">How it works</label>
+                    <input type="radio" name="footer-nav" id="f-Services">
+                    <label for="f-Services">Services</label>
+                </div>
+                <div class="footer__social">
+                    <img src="/media/photos/inst-logo__icon.png" alt="inst-logo__icon">
+                    <img src="/media/photos/linkedIn-logo__icon.png" alt="linkedIn-logo__icon">
+                    <img src="/media/photos/tikTok-logo__icon.png" alt="tikTok-logo__icon">
+                </div>
+            </div>
+        </div>
+     </footer>
     <script src="/script/code.js"></script>
 </body>
 </html>
