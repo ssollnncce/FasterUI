@@ -580,4 +580,182 @@ footer{
         font-size: 40px;
     }
     
+    .chapter{
+        width: 100%;
+        padding: 0px;
+    }
+    .mainInfo-container{
+        width: 100%;
+    }
+    .mainInfo-container p{
+        font-size: 12px;
+    }
+    .mainInfo-container h5{
+        margin: 0;
+    }
+    .mainInfo-container h1{
+        font-size: 40px;
+        margin: 10px;
+        width: 100%;
+    }
+    .info-row{
+        display: flex;
+        flex-direction: column;
+    }
+    .info-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .info-card-m{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .info-card-m{
+        width: 100%;
+        position: relative;
+        padding-top: 100%;
+        border-radius: 0.5rem;
+        background-color: var(--main-color);
+    }
+    .card-content{
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        padding: 20px;
+    }
+    .card-text{
+        font-size: 12px;
+    }
+    .info-card-l{
+        width: 100%;
+        position: relative;
+        padding-top: 200%;
+        border-radius: 0.5rem;
+        background-color: var(--main-color);
+    }
+    .card-container{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        justify-content: center;
+    }
+    .card-content-l{
+        width: 100%;
+    }
+    .card-content-l h5 {
+        font-size: var(--font-size-m);
+        margin: 30px 0 0 0;
+    }
+    .card-content-l p {
+        font-size: var(--font-size-s);
+        color: gray;
+    }
+    .card-container .card-picture{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .info-col-2 {
+        width: 75%;
+        position: relative;
+        padding-top: 150%;
+    }
+    
+    /* INFORMATION CARDS --> card's content*/
+    
+    .info-col-2 .card-container-2{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background-color: var(--main-color);
+        border-radius: 0.5rem;
+        margin: 10px;
+    }
+    .card-content-2{
+        padding: 20px;
+    }
+    .card-content-2 h5 {
+        font-size: var(--font-size-m);
+        margin: 30px 0 0 0;
+    }
+    .card-content-2 p {
+        font-size: var(--font-size-s);
+        color: gray;
+    }
+    .info-col-2 .card-picture-2{
+        position: absolute;
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .price-description__content {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .price-text .text-description h1{
+        font-size: 40px;
+    }
+    .price-text .text-description{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .price-text .meeting-block{
+        margin: 10px 0;
+    }
+    .price-text {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .price-block {
+        width: 90%;
+        padding: 20px;
+        background-color: var(--main-color);
+        border-radius: 1rem;
+    }
+    .footer__text-description p{
+        font-size: 16px;
+    }
+    .footer__another_text{
+        display: flex;
+        align-items: center;
+    }
+    .footer__another_text img{
+        width: 20px;
+        height: 20px;
+    }
+    .footer__block-nav .footer__navigation{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer__navigation label{
+        margin: 5px 0;
+    }
+    .footer__social{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
 }
