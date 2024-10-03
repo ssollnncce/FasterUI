@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
     <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/style-about.css">
 </head>
 <body>
     <header>
@@ -16,9 +17,11 @@
             <div class="nav">
 
                 <!-- List with navigation (radio don't works cause site is a landing page) -->
-                <ul>
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="menu-icon">&#9776;</label>
+                <ul id="main-nav">
                     <input type="radio" name="header__navigation" id="Home">
-                    <label for="Home"><a href="index.html">Home</a></label>
+                    <label for="Home"><a href="/index.html">Home</a></label>
                     <input type="radio" name="header__navigation" id="About" checked>
                     <label for="About"><a href="about.html">About</a></label>
                     <input type="radio" name="header__navigation" id="How_it_works">
@@ -35,5 +38,105 @@
             </div>
         </div>
     </header>
+    <section class="banner">
+        <h1>We Are The Best</h1>
+    </section>
+    <section class="chapter-faq">
+        <div class="faq-content">
+            <div class="color-banner"></div>
+            <div class="faq">
+                <div class="faq__content">
+                    <div class="faq__content-header">
+                        <h1>Frequently Asked Questions</h1>
+                    </div>
+                    <div class="faq__content-quests">
+                        <div class="quest-card">
+                            <div class="quest-head">
+                                <h5>How can I contact Inkyy Team?</h5>
+                                <input type="checkbox" name="more-info" id="more-1" class="toggle-check">
+                                <label for="more-1">+</label>
+                            </div>
+                            <p class="ans__card-text">You can reach us through our contact form on our website or by emailing us at hello@inkyy.com We typically respond within 24 hours.</p>
+                        </div>
+                        <div class="quest-card">
+                            <div class="quest-head">
+                                <h5>What services do you offer?</h5>
+                                <input type="checkbox" name="more-info" id="more-2" class="toggle-check">
+                                <label for="more-2">+</label>
+                            </div>
+                            <p class="ans__card-text">You can reach us through our contact form on our website or by emailing us at hello@inkyy.com We typically respond within 24 hours.</p>
+                        </div>
+                        <div class="quest-card">
+                            <div class="quest-head">
+                                <h5>Do you provide website maintenance services?</h5>
+                                <input type="checkbox" name="more-info" id="more-3" class="toggle-check">
+                                <label for="more-3">+</label>
+                            </div>
+                            <p class="ans__card-text">You can reach us through our contact form on our website or by emailing us at hello@inkyy.com We typically respond within 24 hours.</p>
+                        </div>
+                        <div class="quest-card">
+                            <div class="quest-head">
+                                <h5> How long does it take to design and develop a website?</h5>
+                                <input type="checkbox" name="more-info" id="more-4" class="toggle-check">
+                                <label for="more-4">+</label>
+                            </div>
+                            <p class="ans__card-text">You can reach us through our contact form on our website or by emailing us at hello@inkyy.com We typically respond within 24 hours.</p>
+                        </div>
+                        <div class="quest-card">
+                            <div class="quest-head">
+                                <h5>Do you require a deposit for projects?</h5>
+                                <input type="checkbox" name="more-info" id="more-5" class="toggle-check">
+                                <label for="more-5">+</label>
+                            </div>
+                            <p class="ans__card-text">You can reach us through our contact form on our website or by emailing us at hello@inkyy.com We typically respond within 24 hours.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </section>
+    <footer>
+        <div class="gradient-footer">
+            <div class="gradient-block" id="red-gr"></div>
+            <div class="gradient-block" id="red-gr"></div>
+            <div class="gradient-block" id="violet-gr"></div>
+            <div class="gradient-block" id="violet-gr"></div>
+            <div class="gradient-block" id="blue-gr"></div>
+            <div class="gradient-block" id="blue-gr"></div>
+        </div>
+        <div class="footer__block">
+            <div class="footer__block-text">
+                <div class="footer__logo logo">
+                    <img src="/media/photos/Subtract.png" alt="logo">
+                    <p>FasterUI</p>
+                </div>
+                <div class="footer__text-description">
+                    <p>Ready to elevate your online presence? Contact us today to discuss your project and discover how we can bring your vision to life.</p>
+                </div>
+                <div class="footer__another_text">
+                    <img src="/media/photos/heart-icon.png" alt="heart-icon">
+                    <p>Made with love powered by inkyy.com</p>
+                </div>
+            </div>
+            <div class="footer__block-nav">
+                <div class="footer__navigation">
+                    <input type="radio" name="footer-nav" id="f-Home">
+                    <label for="f-Home"><a href="/index.html">Home</a></label>
+                    <input type="radio" name="footer-nav" id="f-About" checked>
+                    <label for="f-About"><a href="/pages/about.html">About</a></label>
+                    <input type="radio" name="footer-nav" id="f-HowItWorks">
+                    <label for="f-HowItWorks">How it works</label>
+                    <input type="radio" name="footer-nav" id="f-Services">
+                    <label for="f-Services">Services</label>
+                </div>
+                <div class="footer__social">
+                    <img src="/media/photos/inst-logo__icon.png" alt="inst-logo__icon">
+                    <img src="/media/photos/linkedIn-logo__icon.png" alt="linkedIn-logo__icon">
+                    <img src="/media/photos/tikTok-logo__icon.png" alt="tikTok-logo__icon">
+                </div>
+            </div>
+        </div>
+     </footer>
+    <script src="/script/code.js"></script>
 </body>
 </html>

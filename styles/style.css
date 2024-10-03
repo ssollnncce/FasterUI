@@ -555,23 +555,15 @@ footer{
         position: absolute;
 
     }
-    #menu-toggle:checked ~ .nav ul{
-        display: block;
-        flex-direction: column;
-        position: absolute;
-        z-index: 3;
-        top: 20px;
+    #main-nav{
+        position: relative;
+        width: 100%;
     }
-    /* #menu-toggle:checked + .menu-icon{
-        display: none;
-    } */
     .header__buttons {
         width: 40%;
         padding: 10px;
         display: flex;
         justify-content: space-between;
-    }
-    .header__buttons-container{
     }
     .header__text-container{
         width: 100%;
