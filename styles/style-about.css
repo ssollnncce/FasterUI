@@ -79,6 +79,16 @@
 .quest-head input[type="checkbox"]{
     display: none;
 }
+#map{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.map-chapter h1{
+    font-size: var(--font-size-l);
+}
 @media (max-width: 768px){
     .banner h1{
         font-size: 40px;
