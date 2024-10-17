@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
-Allow: /*.css
-Sitemap: /sitemap.xml
+Allow: /*.css$
+Sitemap: https://ssollnncce.github.io/FasterUI/sitemap.xml
